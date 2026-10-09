@@ -1,0 +1,41 @@
+{
+  "dataset_id": "rolllens-synthetic-demo-v1",
+  "is_synthetic": true,
+  "description": "Illustrative test fixtures only. These are not official electoral records.",
+  "records": [
+    {
+      "id": "synthetic-record-001",
+      "document_version_id": "sample-roll-2026-a",
+      "serial_number": "1",
+      "voter_id": null,
+      "name": "Synthetic Person A",
+      "relative_name": "Synthetic Relative A",
+      "house_number": "D-01",
+      "age": 42,
+      "gender": null,
+      "confidence": 0.91,
+      "review_status": "UNVERIFIED",
+      "source": {
+        "page_number": 1,
+        "bbox": [0.1, 0.15, 0.35, 0.18]
+      }
+    },
+    {
+      "id": "synthetic-record-002",
+      "document_version_id": "sample-roll-2026-a",
+      "serial_number": "2",
+      "voter_id": null,
+      "name": "Synthetic Person B",
+      "relative_name": null,
+      "house_number": "D-02",
+      "age": 35,
+      "gender": null,
+      "confidence": 0.66,
+      "review_status": "NEEDS_REVIEW",
+      "source": {
+        "page_number": 1,
+        "bbox": [0.1, 0.39, 0.35, 0.18]
+      }
+    }
+  ]
+}

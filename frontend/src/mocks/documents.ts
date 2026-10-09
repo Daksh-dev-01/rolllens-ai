@@ -1,0 +1,43 @@
+import type { RollDocument } from "../types";
+
+export const sampleDocuments: RollDocument[] = [
+  {
+    id: "sample-roll-2026-a",
+    name: "Ward 08 — Demonstration Electoral Roll",
+    constituency: "Demo Constituency · Ward 08",
+    versionLabel: "Sample version A",
+    pageCount: 24,
+    recordCount: 486,
+    status: "READY",
+    origin: "SAMPLE",
+    updatedAt: "2026-10-08T10:30:00.000Z",
+    processedPages: 24,
+    note: "Synthetic demonstration data. Not an official electoral roll.",
+  },
+  {
+    id: "sample-roll-2025-a",
+    name: "Ward 08 — Previous Demonstration Roll",
+    constituency: "Demo Constituency · Ward 08",
+    versionLabel: "Sample version B",
+    pageCount: 22,
+    recordCount: 452,
+    status: "READY",
+    origin: "SAMPLE",
+    updatedAt: "2026-10-07T14:10:00.000Z",
+    processedPages: 22,
+    note: "Synthetic demonstration data for version-comparison workflows.",
+  },
+  {
+    id: "sample-roll-review",
+    name: "Quality Review Sample",
+    constituency: "Demo Constituency · Ward 11",
+    versionLabel: "Review fixture",
+    pageCount: 12,
+    recordCount: 173,
+    status: "NEEDS_ATTENTION",
+    origin: "SAMPLE",
+    updatedAt: "2026-10-06T08:45:00.000Z",
+    processedPages: 10,
+    note: "Contains intentionally incomplete sample fields for review demonstrations.",
+  },
+];
